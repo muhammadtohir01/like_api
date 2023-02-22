@@ -9,8 +9,6 @@ class LikeDB:
         self.db_path = db_path
         self.db = TinyDB(db_path, indent=4)
         self.users = self.db.table('users')
-        self.images = self.db.table('images')
-
 
 
 
